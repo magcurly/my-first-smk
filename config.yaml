@@ -1,0 +1,6 @@
+completeness: 70
+contamination: 10
+merge_ref: "/hwfssz1/ST_META/PN/zhujiahui/00.bin/03.meta2bac/checkm_merge/Bacteria.ms"
+binning: "/hwfssz1/ST_META/P18Z10200N0127_MA/zhujie/temp/lzx/tmp/FDGC/binning/02.binning"
+assembly: "/hwfssz1/ST_META/P18Z10200N0127_MA/zhujie/temp/lzx/tmp/FDGC/binning/01.assembly"
+sample: "sample.lst"

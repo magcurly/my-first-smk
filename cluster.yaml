@@ -1,0 +1,18 @@
+__default__:
+    queue: "st.q"
+    project: "P18Z10200N0423"
+    workdir: "./"
+    mem: "1G"
+    cores: 1
+
+merge:
+    mem: "20G"
+    cores: "4"
+    output: "logs/{rule}.{wildcards.sample}.o"
+    error: "logs/{rule}.{wildcards.sample}.e"
+
+refine:
+    mem: "35G"
+    cores: "4"
+    output: "logs/{rule}.{wildcards.sample}.o"
+    error: "logs/{rule}.{wildcards.sample}.e" 
