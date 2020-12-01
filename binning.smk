@@ -35,5 +35,5 @@ rule binning:
     shell:
         '''
         jgi_summarize_bam_contig_depths --outputDepth {output.depth} {input.pe_bam} {input.se_bam}
-        metaba2 -t {threads} -i {input.contigs} -a {output.depth} -o {output.metabat}/{wildcards.sample}_bin
+        metabat2 -t {threads} -i {input.contigs} -a {output.depth} -o {output.metabat}/{wildcards.sample}_bin
         '''
