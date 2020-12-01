@@ -1,6 +1,6 @@
 __default__:
     queue: "st.q"
-    project: "P18Z10200N0423"
+    project: "st.q"
     workdir: "./"
     mem: "1G"
     cores: 1
